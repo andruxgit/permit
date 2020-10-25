@@ -1,0 +1,8 @@
+# Ignoring:
+package-lock.json
+*.err
+*.log
+node_modules/
+_august06/
+.tmp/
+psd/
