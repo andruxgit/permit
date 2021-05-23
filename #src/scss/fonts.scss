@@ -3,6 +3,11 @@
 @include font("OpenSans", "OpenSans-Regular", "400", "normal");
 @include font("OpenSans", "OpenSans-SemiBold", "600", "SemiBold");
 
+@include font("Gilroy", "Gilroy-Black", "700", "Black");
+@include font("Gilroy", "Gilroy-Bold", "600", "Bold");
+@include font("Gilroy", "Gilroy-Medium", "500", "Medium");
+@include font("Gilroy", "Gilroy-Regular", "400", "Regular");
+
 @font-face {
   font-family: 'icomoon';
   src:
