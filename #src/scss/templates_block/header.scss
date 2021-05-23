@@ -1,0 +1,167 @@
+body {
+  background-color: #fff;
+}
+
+.header {
+  // .header__wrapp
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+
+  &__top {
+    display: flex;
+  }
+  &__bottom {
+    display: flex;
+  }
+
+
+  &-top__column {
+    display: flex;
+    align-items: center;
+    &:first {
+      flex: 0 0 180px;
+    }
+    &:last-child {
+      flex: 1 1 auto;
+    }
+  }
+
+  // .header__logo
+
+  &__logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  20px 0px 20px 0px;
+  }
+
+  // .header__info
+
+  &__info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  // .header__time
+
+  &__time,
+  &__place,
+  &__phone {
+    display: flex;
+    margin: 0px 0px 0px 60px;
+  }
+}
+.header-info {
+  &__column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.header-time__text,
+.header-place__text,
+.header-phone__text {
+  margin: 0px 0px 0px 12px;
+  span {
+    display: block;
+    color: #a9b2bf;
+    font-size: 9px;
+    line-height: 9px;
+    margin: 5px 0px 0px 0px;
+  }
+  span.bold {
+    margin: 0px 0px 0px 0px;
+    color: #8b96a5;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+.header-time__icon,
+.header-place__icon,
+.header-phone__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__time,
+.header__place,
+.header__phone{
+  &:hover>div>span {
+    color: #000;
+  }
+}
+.header-time,
+.header-place,
+.header-phone {
+  &__icon {
+    color: #6eb1d0;
+    font-size: 30px;
+
+  }
+
+}
+
+.menu {
+  // .menu__icon
+
+  &__icon {
+  }
+
+  // .menu__body
+
+  &__body {
+  }
+
+  // .menu__list
+
+  &__list {
+  }
+
+  // .menu__link
+
+  &__link {
+  }
+}
+.header__menu{
+
+  flex: 0 1 650px;
+}
+.header-menu {
+  // .header-menu__icon
+
+  &__icon {
+  }
+
+  // .header-menu__body
+
+  &__body {
+    // width: 100%;
+    // height: 100%;
+  }
+
+  // .header-menu__list
+
+  &__list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background-color: #fff;
+    padding:  20px 0px 20px 0px;
+  }
+
+  // .header-menu__link
+
+  &__link {
+  }
+}
+.icon-menu {
+}
