@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+      <header class="header">
+      <!-- <div class="_auto-wrapper"><img src="./img/001.png" alt=""></div> -->
+      <!-- @@include('./templates_block/_header-test.html',{}) -->
+      @@include('./templates_block/_header.html',{})
+    </header>
+    <main class="page">
+      <!-- <div class="_auto-wrapper"><img src="./img/001.png" alt=""></div> -->
+      <div class="_auto-wrapper"><img src="./img/001.png" alt=""></div>
+      <!-- @@include('./templates_block/_page-side.html',{}) -->
+
+      <div class="page__body">
+
+          @@include('./templates_block/_block-1.html',{})
+          @@include('./templates_block/_block-2.html',{})
+          @@include('./templates_block/_block-3.html',{})
+          @@include('./templates_block/_block-4.html',{})
+          <!-- @@include('./templates_block/_block-10.html',{}) -->
+
+				</div>
+			</main>
+
+
+			@@include('./templates_block/_footer.html',{})
+		</div>
+		@@include('./templates/_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>
