@@ -9,8 +9,7 @@
   width: calc(100% + 200px);
 
 
-  &__bg1,
-  &__bg3 {
+  &__bg1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -22,9 +21,7 @@
     }
 
   }
-  &__bg3{
-    bottom: 0px;
-  }
+
   .custom-shape-divider-top-1621807799 {
     position: absolute;
     top: 0;
