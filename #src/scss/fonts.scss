@@ -7,17 +7,18 @@
 @include font("Gilroy", "Gilroy-Bold", "600", "Bold");
 @include font("Gilroy", "Gilroy-Medium", "500", "Medium");
 @include font("Gilroy", "Gilroy-Regular", "400", "Regular");
+@include font("icomoon", "icomoon", "400", "Regular");
 
-@font-face {
-  font-family: 'icomoon';
-  src:
-    url('../fonts/icomoon.ttf?4mujxn') format('truetype'),
-    url('../fonts/icomoon.woff?4mujxn') format('woff'),
-    url('../fonts/icomoon.svg?4mujxn#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
+// @font-face {
+//   font-family: 'icomoon';
+//   src:
+//     url('./fonts/icomoon.ttf?4mujxn') format('truetype'),
+//     url('./fonts/icomoon.woff?4mujxn') format('woff'),
+//     url('./fonts/icomoon.svg?4mujxn#icomoon') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: block;
+// }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
